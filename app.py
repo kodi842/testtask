@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # === НАСТРОЙКИ ===
-DEEPAI_API_KEY = os.getenv("DEEPAI_API_KEY")
+DEEPAI_API_KEY = os.getenv("4f77d663-08f1-4b10-ab46-8fb2f4d84536")
 HF_API_URL = 'https://stabilityai-stable-diffusion.hf.space/run/predict'
 
 @app.route('/generate', methods=['POST'])
